@@ -96,18 +96,18 @@
     display: inline-block;
     width: 0.7rem;
     height: 0.7rem;
-    background: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/careers/arrow-left.svg) no-repeat center/100%;
+    background: url(https://dso-careers.bjdev.net/static/wp-content/themes/dso/img/careers/arrow-left.svg) no-repeat center/100%;
     cursor: pointer;
     flex: 0 0 auto;
     pointer-events: all;
   }
   .widget_dso-tabs-so-container-widget .swiper .swiper-buttons .swiper-button-prev-down {
-    background-image: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/careers/arrow-left.svg);
+    background-image: url(https://dso-careers.bjdev.net/static/wp-content/themes/dso/img/careers/arrow-left.svg);
     margin: 0 auto 0 1rem;
     order: 0;
   }
   .widget_dso-tabs-so-container-widget .swiper .swiper-buttons .swiper-button-next-down {
-    background-image: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/careers/arrow-right.svg);
+    background-image: url(https://dso-careers.bjdev.net/static/wp-content/themes/dso/img/careers/arrow-right.svg);
     margin: 0 1rem 0 auto;
     order: 1;
   }

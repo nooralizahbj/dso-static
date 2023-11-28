@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for DSO Career Hub	</title>
-	<atom:link href="https://nooralizahbj.github.io/dso-careers/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://nooralizahbj.github.io/dso-careers/</link>
+	<atom:link href="https://dso-careers.bjdev.net/static/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://dso-careers.bjdev.net/static/</link>
 	<description>DSO National Laboratories</description>
 	<lastBuildDate>Mon, 27 Nov 2023 09:42:16 +0000</lastBuildDate>
 	<sy:updatePeriod>

@@ -654,7 +654,7 @@ Internship Page
     margin: 0 auto;
     width: 1em;
     height: 1.5em;
-    background: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/css/img/scroll-arrow.svg) no-repeat center/100%;
+    background: url(https://dso-careers.bjdev.net/static/wp-content/themes/dso/css/img/scroll-arrow.svg) no-repeat center/100%;
     transform-origin: 0 -30%;
     animation: scroller-pulse 1s ease-in-out alternate infinite;
 }
@@ -1628,7 +1628,7 @@ Internship Page
         position: absolute;
         left: 0;
         top: .18em;
-        background: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/scholarships/arrow-bullet.svg) no-repeat center / 100%;
+        background: url(https://dso-careers.bjdev.net/static/wp-content/themes/dso/img/scholarships/arrow-bullet.svg) no-repeat center / 100%;
     }
 }
 
@@ -2864,7 +2864,7 @@ Internship Page
     margin: 0 auto;
     width: 1em;
     height: 1.5em;
-    background: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/css/img/scroll-arrow.svg) no-repeat center/100%;
+    background: url(https://dso-careers.bjdev.net/static/wp-content/themes/dso/css/img/scroll-arrow.svg) no-repeat center/100%;
     transform-origin: 0 -30%;
     animation: scroller-pulse 1s ease-in-out alternate infinite;
 }
@@ -3138,25 +3138,25 @@ Scholoarship Page
 @font-face {
     font-family: "DIN Next LT Pro";
     font-weight: normal;
-    src: url("https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/css/fonts/DINNextLTPro-Regular.woff2") format("woff2");
+    src: url("https://dso-careers.bjdev.net/static/wp-content/themes/dso/css/fonts/DINNextLTPro-Regular.woff2") format("woff2");
     font-display: swap;
 }
 @font-face {
     font-family: "DIN Next LT Pro";
     font-weight: bold;
-    src: url("https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/css/fonts/DINNextLTPro-Bold.woff2") format("woff2");
+    src: url("https://dso-careers.bjdev.net/static/wp-content/themes/dso/css/fonts/DINNextLTPro-Bold.woff2") format("woff2");
     font-display: swap;
 }
 @font-face {
     font-family: "DIN Next LT Pro";
     font-weight: 500;
-    src: url("https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/css/fonts/DINNextLTPro-Medium.woff2") format("woff2");
+    src: url("https://dso-careers.bjdev.net/static/wp-content/themes/dso/css/fonts/DINNextLTPro-Medium.woff2") format("woff2");
     font-display: swap;
 }
 @font-face {
     font-family: "DIN Next LT Pro";
     font-weight: 300;
-    src: url("https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/css/fonts/DINNextLTPro-Light.woff2") format("woff2");
+    src: url("https://dso-careers.bjdev.net/static/wp-content/themes/dso/css/fonts/DINNextLTPro-Light.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -3481,7 +3481,7 @@ Scholoarship Page
     }
     
     .widget_dso-tabs-so-container-widget .nav-tablist .nav-select .form-dark::after .active {
-        background: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/careers/arrow-up.svg) no-repeat center/100% !important;
+        background: url(https://dso-careers.bjdev.net/static/wp-content/themes/dso/img/careers/arrow-up.svg) no-repeat center/100% !important;
     }
     
     .dso-tabs-panel .vjs-big-play-centered .vjs-big-play-button {

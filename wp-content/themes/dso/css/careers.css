@@ -15,7 +15,7 @@
     width: 0.6em;
     height: 1em;
     margin: auto 0;
-    background: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/careers/arrow-down.svg) no-repeat center/100%;
+    background: url(https://dso-careers.bjdev.net/static/wp-content/themes/dso/img/careers/arrow-down.svg) no-repeat center/100%;
   }
   .widget_dso-tabs-so-container-widget .nav-tablist .nav-select.form-dark.expanded::after {
     transform: rotate(180deg);
@@ -46,7 +46,7 @@
     width: 0.3125em;
     height: 1em;
     margin: auto 0;
-    background: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/careers/chevron-right.svg) no-repeat center/100%;
+    background: url(https://dso-careers.bjdev.net/static/wp-content/themes/dso/img/careers/chevron-right.svg) no-repeat center/100%;
   }
   .widget_dso-tabs-so-container-widget .dso-tabs-panel .nav-pills button.with-left-indicator {
     padding-left: 1rem;
