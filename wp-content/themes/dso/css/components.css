@@ -1,0 +1,86 @@
+header.header .header__wrapper {
+  padding: 0 6.875vw;
+  max-width: initial !important;
+}
+@media screen and (max-width: 991px) {
+  header.header .header__wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media not screen and (max-width: 991px) {
+  footer.footer {
+    padding: 0.5rem 0 !important;
+  }
+  footer.footer .container {
+    max-width: initial !important;
+    padding: 0 6.875vw;
+  }
+  footer.footer .container .row .col-12 {
+    padding: 0 !important;
+  }
+  footer.footer .footer__top {
+    padding: 0 !important;
+  }
+  footer.footer .logo-section img {
+    width: 5vw;
+  }
+  footer.footer .navbar-nav {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  footer.footer .navbar-nav li.nav-item {
+    padding-right: 1.8vw !important;
+  }
+  footer.footer .navbar-nav li.nav-item a.nav-link {
+    font-size: 0.7291666666vw;
+    font-weight: 600;
+    white-space: nowrap;
+    letter-spacing: 0.02em;
+  }
+  footer.footer .copyright {
+    color: #06184A;
+    width: auto;
+    margin-left: 0.2vw !important;
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.7291666666vw;
+    letter-spacing: 0.04em;
+    text-transform: none;
+  }
+  footer.footer .item-container {
+    font-size: 0.7291666666vw;
+  }
+  footer.footer .social {
+    flex: 0 0 auto;
+  }
+  footer.footer .social a {
+    display: inline-block;
+    width: 1.458333vw;
+    height: 1.458333vw;
+    margin-right: 0.8vw;
+    padding: 0 !important;
+  }
+  footer.footer .social a:first-child {
+    margin-right: 0.6vw;
+  }
+  footer.footer .social a:last-child {
+    margin-right: 0;
+  }
+  footer.footer .social a img {
+    display: block;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  footer.footer .navbar-nav .nav-link {
+    /* font-size: 3.733333333vw !important; */
+  }
+  footer.footer .copyright {
+    font-family: "Work Sans", sans-serif;
+    /* font-size: 3.733333333vw !important; */
+    line-height: 1.5714 !important;
+    text-transform: none !important;
+  }
+}
+
+/*# sourceMappingURL=components.css.map */

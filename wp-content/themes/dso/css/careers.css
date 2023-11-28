@@ -1,0 +1,88 @@
+@media screen and (max-width: 991px) {
+  .widget_dso-tabs-so-container-widget .nav-tablist .nav-select.form-dark {
+    font-weight: 600;
+    font-size: 1.25rem;
+    background: transparent !important;
+    position: relative;
+    padding: 1em 2em;
+  }
+  .widget_dso-tabs-so-container-widget .nav-tablist .nav-select.form-dark::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 1em;
+    width: 0.6em;
+    height: 1em;
+    margin: auto 0;
+    background: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/careers/arrow-down.svg) no-repeat center/100%;
+  }
+  .widget_dso-tabs-so-container-widget .nav-tablist .nav-select.form-dark.expanded::after {
+    transform: rotate(180deg);
+  }
+  .widget_dso-tabs-so-container-widget .nav-tablist .select-options {
+    margin: 0 1.5em !important;
+  }
+  .widget_dso-tabs-so-container-widget .dso-tabs-panel .dso-tabs-panel-content > .row.py-lg-5 {
+    padding-top: 0 !important;
+  }
+  .widget_dso-tabs-so-container-widget .dso-tabs-panel .nav-pills {
+    padding: 1em;
+  }
+  .widget_dso-tabs-so-container-widget .dso-tabs-panel .nav-pills button {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1em !important;
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    padding: 1em 3em 1em 1.5em;
+    margin-bottom: 0.5em;
+  }
+  .widget_dso-tabs-so-container-widget .dso-tabs-panel .nav-pills button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 1em;
+    width: 0.3125em;
+    height: 1em;
+    margin: auto 0;
+    background: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/careers/chevron-right.svg) no-repeat center/100%;
+  }
+  .widget_dso-tabs-so-container-widget .dso-tabs-panel .nav-pills button.with-left-indicator {
+    padding-left: 1rem;
+  }
+  .widget_dso-tabs-so-container-widget .dso-tabs-panel .nav-pills button.with-left-indicator::before {
+    display: none;
+  }
+  .widget_dso-tabs-so-container-widget .dso-tabs-panel .nav-pills button.expanded::after {
+    transform: rotate(180deg);
+  }
+  .widget_dso-tabs-so-container-widget .dso-tabs-panel-content .tab-title {
+    display: none !important;
+  }
+  .widget_dso-tabs-so-container-widget .dso-tabs-panel-content .content-tab {
+    height: auto !important;
+  }
+  .widget_dso-tabs-so-container-widget .bullet-item .tab-pane {
+    overflow-y: auto;
+    height: auto !important;
+  }
+}
+.widget_dso-tabs-so-container-widget .dso-tabs-panel-content .content-tab {
+  height: 50%;
+}
+.widget_dso-tabs-so-container-widget .bullet-item .tab-pane {
+  overflow-y: auto;
+  height: 30vw;
+}
+.widget_dso-tabs-so-container-widget .bullet-item .tab-pane::-webkit-scrollbar {
+  width: 3px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.widget_dso-tabs-so-container-widget .bullet-item .tab-pane::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: linear-gradient(180deg, #FE0532 0%, #1061D5 100%);
+  height: 50px;
+}
+
+/*# sourceMappingURL=careers.css.map */

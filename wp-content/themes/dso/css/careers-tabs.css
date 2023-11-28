@@ -1,0 +1,119 @@
+.banner-career {
+  min-height: 30rem;
+}
+.banner-career .banner-title h2 {
+  font-size: 4vw;
+}
+
+.career-image-cover img.mobile-image {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  .career-image-cover img.mobile-image {
+    display: block;
+  }
+  .career-image-cover img.mobile-image + .desktop-image {
+    display: none;
+  }
+}
+
+.container.content-space-5 .row.gy-5 .secondary-font p {
+  text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.8);
+}
+.container.content-space-5 .row.gy-5 .card-header {
+  aspect-ratio: 1.776136;
+}
+@media screen and (max-width: 991px) {
+  .container.content-space-5 .row.gy-5 .card-header {
+    aspect-ratio: 1.7687;
+  }
+}
+.container.content-space-5 .row.gy-5 .card-body.bg-card {
+  margin-top: -1px;
+}
+
+@media not screen and (max-width: 991px) {
+  .widget_dso-tabs-so-container-widget .banner-title {
+    text-align: center !important;
+  }
+  .widget_dso-tabs-so-container-widget .banner-title h2 {
+    line-height: 1.2;
+  }
+  .widget_dso-tabs-so-container-widget .banner-title .row {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+  .widget_dso-tabs-so-container-widget .nav-pills button {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  .widget_dso-tabs-so-container-widget .nav-pills button.active {
+    font-weight: 550;
+    color: rgba(255, 255, 255, 0.85) !important;
+  }
+  @media (max-width: 1200px) {
+    .widget_dso-tabs-so-container-widget .nav-pills button.with-left-indicator::before {
+      left: 0 !important;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .widget_dso-tabs-so-container-widget .nav-tablist .nav-select.form-dark {
+    font-size: 1.375rem;
+    padding: 0.5em 0 0.5em 1em;
+  }
+  .widget_dso-tabs-so-container-widget .nav-tablist .select-options {
+    background: #06184A !important;
+    padding-bottom: 0.5em;
+    width: 98%;
+    margin-left: -1ew;
+  }
+  .widget_dso-tabs-so-container-widget .nav-tablist .select-options li {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    background: #06184A;
+    cursor: pointer;
+  }
+  .widget_dso-tabs-so-container-widget .nav-tablist .select-options li.active {
+    background: #06184A;
+  }
+  .widget_dso-tabs-so-container-widget .nav-tablist .dso-tabs-panel .nav-pills button {
+    padding: 1em 2em 1em 1.5em !important;
+  }
+  .widget_dso-tabs-so-container-widget .swiper a.stretched-link img {
+    max-height: 28.125rem !important;
+  }
+  .widget_dso-tabs-so-container-widget .swiper .swiper-buttons {
+    display: flex;
+    position: relative;
+    width: 100%;
+    z-index: 101;
+    transform: translate(0, -2rem);
+    pointer-events: none;
+  }
+  .widget_dso-tabs-so-container-widget .swiper .swiper-buttons .swiper-button-prev-down, .widget_dso-tabs-so-container-widget .swiper .swiper-buttons .swiper-button-next-down {
+    position: relative;
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    background: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/careers/arrow-left.svg) no-repeat center/100%;
+    cursor: pointer;
+    flex: 0 0 auto;
+    pointer-events: all;
+  }
+  .widget_dso-tabs-so-container-widget .swiper .swiper-buttons .swiper-button-prev-down {
+    background-image: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/careers/arrow-left.svg);
+    margin: 0 auto 0 1rem;
+    order: 0;
+  }
+  .widget_dso-tabs-so-container-widget .swiper .swiper-buttons .swiper-button-next-down {
+    background-image: url(https://nooralizahbj.github.io/dso-careers/wp-content/themes/dso/img/careers/arrow-right.svg);
+    margin: 0 1rem 0 auto;
+    order: 1;
+  }
+  .widget_dso-tabs-so-container-widget .swiper .swiper-pagination {
+    z-index: 100 !important;
+  }
+}
+
+/*# sourceMappingURL=careers-tabs.css.map */

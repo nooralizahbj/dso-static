@@ -1,0 +1,315 @@
+.careers-banner {
+  font-size: 0.8333333333vw;
+  width: 100%;
+  max-width: initial;
+  height: 100vh;
+  position: relative;
+  padding-top: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000A26;
+  color: white;
+  overflow: hidden;
+}
+@media screen and (max-width: 991px) {
+  .careers-banner {
+    font-size: 4.26666666vw;
+    padding-left: 0;
+    min-height: 100vh;
+  }
+}
+@media screen and (max-width: 991px) and (min-aspect-ratio: 608/930) {
+  .careers-banner {
+    min-height: 160vw;
+  }
+  .careers-banner .talent::after {
+    bottom: 0;
+  }
+}
+.careers-banner::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(180deg, #000A26 50%, rgba(0, 0, 0, 0));
+  z-index: 2;
+}
+@media screen and (max-width: 991px) {
+  .careers-banner::before {
+    display: none;
+  }
+}
+.careers-banner::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(0deg, #000A26 30%, rgba(0, 0, 0, 0));
+}
+@media screen and (max-width: 991px) {
+  .careers-banner::after {
+    display: none;
+  }
+}
+.careers-banner .bg {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  left: 0;
+  top: 6.25rem;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 0;
+  overflow: hidden;
+  animation: cb-bg-enter 1s 0.5s forwards;
+}
+@keyframes cb-bg-enter {
+  to {
+    opacity: 0.4;
+  }
+}
+@media screen and (max-width: 991px) {
+  .careers-banner .bg {
+    bottom: auto;
+    margin: 0;
+    height: 17em;
+    opacity: 0;
+    animation: cb-bg-enter-mobile 1s 0.5s forwards;
+  }
+  @keyframes cb-bg-enter-mobile {
+    to {
+      opacity: 0.5;
+    }
+  }
+  .careers-banner .bg::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+    width: 100%;
+    height: 10em;
+    background: linear-gradient(0deg, #000A26 30%, rgba(0, 0, 0, 0));
+  }
+}
+.careers-banner .bg .picture {
+  position: absolute;
+  left: -10%;
+  top: -50%;
+  width: 150%;
+  overflow: hidden;
+}
+@media screen and (max-width: 991px) {
+  .careers-banner .bg .picture {
+    width: 250%;
+    left: -25%;
+    top: -80%;
+  }
+}
+.careers-banner .bg .picture img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 991px) {
+  .careers-banner .bg .picture img {
+    margin-top: 0;
+    object-fit: initial;
+  }
+}
+@keyframes cb-bg-slide {
+  to {
+    transform: translate(-50%);
+  }
+}
+@keyframes cb-bg-fade {
+  from {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@media not screen and (max-width: 991px) {
+  .careers-banner .bg .picture.active {
+    animation: cb-bg-slide 10s linear forwards, cb-bg-fade 11s forwards;
+  }
+  @keyframes cb-bg-slide-up {
+    to {
+      transform: translate(0, -50%);
+    }
+  }
+  .careers-banner .bg .picture:nth-child(2).active {
+    animation: cb-bg-slide-up 10s linear forwards, cb-bg-fade 11s forwards;
+  }
+  .careers-banner .bg .picture:nth-child(3).active {
+    animation: cb-bg-slide 10s linear forwards, cb-bg-fade 11s forwards;
+  }
+  .careers-banner .bg .picture:nth-child(4) {
+    top: auto;
+    bottom: 0;
+  }
+  @keyframes cb-bg-slide-down {
+    to {
+      transform: translate(0, 50%);
+    }
+  }
+  .careers-banner .bg .picture:nth-child(4).active {
+    animation: cb-bg-slide-down 10s linear forwards, cb-bg-fade 11s forwards;
+  }
+}
+@media screen and (max-width: 991px) {
+  .careers-banner .bg .picture.active {
+    animation: cb-bg-fade 6s forwards;
+  }
+}
+.careers-banner .talent {
+  position: absolute;
+  height: 90%;
+  top: -10%;
+  bottom: 0;
+  margin: auto;
+  opacity: 0;
+  animation: cb-talent-enter 1s 1.5s forwards;
+}
+@keyframes cb-talent-enter {
+  to {
+    opacity: 0.9;
+  }
+}
+@keyframes cb-talent-enter-mobile {
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 991px) {
+  .careers-banner .talent {
+    height: auto;
+    top: 24em;
+    width: 100%;
+    z-index: 2;
+    animation-name: cb-talent-enter-mobile;
+  }
+  .careers-banner .talent::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5em;
+    background: linear-gradient(0deg, #000A26 30%, rgba(0, 0, 0, 0));
+  }
+}
+.careers-banner .talent img {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  margin: 0 auto;
+}
+@media screen and (max-width: 991px) {
+  .careers-banner .talent img {
+    height: auto;
+    width: 140%;
+  }
+}
+.careers-banner .banner-hero {
+  text-align: center;
+  font-weight: bold;
+  z-index: 3;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 991px) {
+  .careers-banner .banner-hero {
+    width: 100%;
+    padding: 1em;
+    margin-top: 5em;
+  }
+}
+.careers-banner .banner-hero .line {
+  width: 80%;
+  opacity: 0;
+  animation: cb-line-enter 1s 1.5s forwards;
+}
+@keyframes cb-line-enter {
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 991px) {
+  .careers-banner .banner-hero .line {
+    width: 100%;
+  }
+}
+.careers-banner .banner-hero .line img {
+  width: 100%;
+}
+.careers-banner .banner-hero strong, .careers-banner .banner-hero b, .careers-banner .banner-hero em, .careers-banner .banner-hero i {
+  font-weight: inherit;
+}
+.careers-banner .banner-hero p {
+  margin: 0;
+}
+.careers-banner .banner-hero .headline {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 5.75em;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 0.5em 0 0.6em;
+  opacity: 0;
+  transform: translate(0, -50%);
+  animation: cb-headline-enter 0.6s 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+@keyframes cb-headline-enter {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .careers-banner .banner-hero .headline {
+    font-size: 2.625em;
+    line-height: 1.238;
+    margin: 0.4em 0 0.8em;
+  }
+}
+.careers-banner .banner-hero .tagline {
+  font-family: "Work Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.25em;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  width: 60%;
+  opacity: 0;
+  transform: translate(0, 100%);
+  animation: cb-tagline-enter 1s 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+@keyframes cb-tagline-enter {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .careers-banner .banner-hero .tagline {
+    font-size: 1.125em;
+    line-height: 1.173;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=careers-banner.css.map */
