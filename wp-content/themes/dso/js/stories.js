@@ -40,11 +40,11 @@ document.addEventListener('alpine:init', function() {
 
                     if (this.currentCategorySlug === "all-stories")
                         response = await fetch(
-                            `https://dso-careers.bjdev.net/static/wp-content/themes/dso/acf-json/profile_page_${newCurrentPage}.json`
+                            `/static/wp-content/themes/dso/acf-json/profile_page_${newCurrentPage}.json`
                         );
                     else
                         response = await fetch(
-                            `https://dso-careers.bjdev.net/static/wp-content/themes/dso/acf-json/profile_page_${newCurrentPage}.json`
+                            `/static/wp-content/themes/dso/acf-json/profile_page_${newCurrentPage}.json`
                         );
 
                     if (response.status === 200) {
@@ -93,14 +93,14 @@ document.addEventListener('alpine:init', function() {
 
                     if (this.currentCategorySlug === "all-stories") {
                         response = await fetch(
-                            `https://dso-careers.bjdev.net/static/wp-content/themes/dso/acf-json/profile_page_1.json`
+                            `/static/wp-content/themes/dso/acf-json/profile_page_1.json`
                         );
                         responseTotal = await fetch(
-                            `https://dso-careers.bjdev.net/static/wp-content/themes/dso/acf-json/profile_total.json`
+                            `/static/wp-content/themes/dso/acf-json/profile_total.json`
                         );
                     } else
                         response = await fetch(
-                            `https://dso-careers.bjdev.net/static/wp-content/themes/dso/acf-json/profile_cat_${this.currentCategoryId}.json`
+                            `/static/wp-content/themes/dso/acf-json/profile_cat_${this.currentCategoryId}.json`
                         );
 
 
